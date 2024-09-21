@@ -1,17 +1,20 @@
-import Center from "./Component/Center/Center";
-import LeftSideBar from "./Component/LeftSideBar/LeftSideBar";
-import SideBar from "./Component/RightSideBar/SideBar";
+import { createBrowserRouter, Router, RouterProvider } from "react-router-dom";
 import Register from "./Screens/Register.jsx/Register";
+import MainPage from "./Screens/MainPage/MainPage";
 
 function App() {
-  return (
-    // <div className="flex">
-    //     <SideBar />
-    //     <Center />
-    //     <LeftSideBar />
-    // </div>
-    <Register/>
-  );
+  let router = createBrowserRouter([
+    {
+      path: "/register",
+      element: <Register />,
+    },
+    {
+      path: "/",
+      element: <MainPage />,
+    },
+  ]);
+
+  return <RouterProvider router={router} />;
 }
 
 export default App;

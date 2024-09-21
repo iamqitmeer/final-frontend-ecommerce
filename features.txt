@@ -1,0 +1,39 @@
+Features for Twitter Clone (React + Firebase)
+
+1. User Authentication:
+   - Sign up and login using Email/Password and Google OAuth (Firebase Authentication).
+
+2. Post Tweets:
+   - Users can post tweets with text and images (image uploads via Firebase Storage).
+
+3. Real-time Feed:
+   - Tweets are displayed in real-time on the home feed with infinite scrolling.
+
+4. Like & Comment:
+   - Users can like and comment on tweets with live updates.
+
+5. Follow/Unfollow Users:
+   - Users can follow/unfollow other users and see their followers/following count.
+
+6. Profile Pages:
+   - Each user has a profile page displaying their bio, profile picture, tweets, and follower count.
+
+7. Media Uploads:
+   - Upload profile pictures and tweet images using Firebase Storage.
+
+8. Explore Section:
+   - A page where users can explore trending or random tweets.
+
+9. Notifications:
+   - Receive notifications for likes, comments, and follows.
+
+10. Responsive Design:
+    - The app works seamlessly on all devices (mobile-first design).
+
+11. Real-time Database Sync:
+    - Use Firebase Firestore for real-time updates on tweets, likes, and user interactions.
+
+12. Logout & Session Handling:
+    - Secure user sessions with a logout option and session persistence.
+
+These features make up the core functionality of your Twitter clone project!
